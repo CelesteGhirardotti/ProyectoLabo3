@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;  
+}
+body{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh;
+    background-color: #e1fcd5;
+    color: #efb810;
+}
+header{
+    background-color: rgb(103, 180, 222);
+    padding: 10px;
+    color: white;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    left: 0;
+}
+.closeSesion{
+    position: fixed;
+    right: 80px;
+    background-color: #efb810;
+    font-size: 85%;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+.logotype{
+    position: fixed;
+    left: 80px;
+    font-size: 60px;
+}
